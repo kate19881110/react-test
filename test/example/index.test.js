@@ -98,10 +98,10 @@ test('Special value',()=>{
 })
 
 // 函式與 測試檔案分開
-let func = require('../funcs/func.js')
+// let func = require('../../funcs/func.js')
 
-test('test sum',()=>{
-    expect(func.sum(2)).toBe(2) // 由於 test時候 ， 沒有跑 else return b , 需要coverage %
+// test('test sum',()=>{
+//     expect(func.sum(2)).toBe(2) // 由於 test時候 ， 沒有跑 else return b , 需要coverage %
 
-    expect(func.sum(1,1)).toBe(2)
-})
+//     expect(func.sum(1,1)).toBe(2)
+// })
